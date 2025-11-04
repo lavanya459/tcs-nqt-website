@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TCS NQT - Advanced Mock Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>TCS NQT — Advanced Mock Test</h1>
+      <p>Topics: Time & Work | Speed & Distance | Problems on Trains | Blood Relations | Tense/Error Detection | Sentence Completion | Synonyms | Antonyms | Arrange Order</p>
+      <div class="meta">
+        <div id="clock">—</div>
+        <div id="time-status">Test will open at 11:00 PM</div>
+      </div>
+    </header>
+
+    <main id="main-area">
+      <section id="quiz-area" class="card hidden">
+        <div id="info-bar">
+          <div id="topic-name"></div>
+          <div id="progress">Q <span id="q-index">0</span> / <span id="q-total">0</span></div>
+        </div>
+
+        <div id="question-box" class="card-inner">
+          <div id="question-text"></div>
+          <div id="options"></div>
+        </div>
+
+        <div id="feedback" class="feedback"></div>
+
+        <div class="controls">
+          <button id="next-btn" class="btn hidden">Next ➜</button>
+          <button id="end-btn" class="btn secondary">End Test</button>
+        </div>
+      </section>
+
+      <section id="closed-area" class="card">
+        <h2 id="closed-message">Exam not yet started</h2>
+        <p id="closed-sub">Open the link between 11:00 PM and 11:40 PM (40 minutes).</p>
+      </section>
+
+      <section id="result-area" class="card hidden">
+        <h2>Test Completed</h2>
+        <p id="final-score"></p>
+        <div id="breakdown"></div>
+        <button id="restart" class="btn">Restart (local)</button>
+      </section>
+    </main>
+
+    <footer>
+      <small>Prepared for TCS NQT practice — advanced questions (mock). Good luck!</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
